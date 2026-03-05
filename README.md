@@ -3,7 +3,7 @@
 ## 🏆 Competition Results
 - **Event:** alrIEEEna'26 ML Challenge Qualifiers
 - **Model:** XGBoost Classifier
-- **Cross-Validation F1 Score:** 0.9821 ± 0.0009
+- **Cross-Validation F1 Score:** 0.9891 ± 0.0009
 - **Submission Date:** March 2026
 
 ---
@@ -147,6 +147,7 @@ max_depth = 7               # Controls tree complexity
 subsample = 0.8             # Row sampling for regularization
 colsample_bytree = 0.8      # Feature sampling
 random_state = 42           # Reproducibility
+
 
 
 
