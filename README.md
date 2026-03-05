@@ -54,7 +54,7 @@ The notebook includes:
 
 | Model | F1 Score | Std Dev | Status |
 |-------|----------|---------|--------|
-| **XGBoost** | **0.9821** | **0.0009** | ✅ **SELECTED** |
+| **XGBoost** | **0.9891** | **0.0009** | ✅ **SELECTED** |
 | LightGBM | 0.9757 | 0.0017 | - |
 | Random Forest | 0.9555 | 0.0036 | - |
 | Gradient Boosting | 0.9524 | 0.0031 | - |
@@ -147,5 +147,6 @@ max_depth = 7               # Controls tree complexity
 subsample = 0.8             # Row sampling for regularization
 colsample_bytree = 0.8      # Feature sampling
 random_state = 42           # Reproducibility
+
 
 
